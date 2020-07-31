@@ -1,0 +1,72 @@
+<div class="category">
+					<h2>Category</h2>
+					<ul class="names">
+						<li><a href="#">Cat</a></li>
+						<li><a href="#">Dog</a></li>
+					</ul>
+				</div>
+				<div class="category_img">
+					<h2 align="center">Dog</h2>
+					<img src="images/1.jpg" height="150" width="130"/>
+				</div>
+				<div class="images">
+					<ul class="img_gallery">
+						<li><img src="images/2.jpg"/></li>
+						<li><img src="images/3.jpg"/></li>
+						<li><img src="images/4.jpg"/></li>
+					</ul>
+				</div>
+
+
+
+.category
+{
+	width:200px;
+	height:528px;
+	background:pink;
+	float:left;
+}
+ul.names
+{
+	list-style:none;
+	margin:10px;
+	padding:10px;
+}
+ul.names li
+{
+	min-height:30px;
+	margin:20px;
+}
+ul.names li a
+{
+	color:white;
+	text-decoration:none;
+	margin:10px;
+	background:#F01A60;
+	padding:10px;
+}
+.category_img
+{
+	width:824px;
+	height:350px;
+	background:green;
+	float:left;
+}
+.images
+{
+	width:824px;
+	height:178px;
+	background:brown;
+	float:left;
+}
+.img_gallery
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.img_gallery li
+{
+	float:left;
+	margin:41;
+}
